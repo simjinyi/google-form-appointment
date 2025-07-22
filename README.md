@@ -45,8 +45,8 @@ Follow these detailed steps to set up and deploy your Dental Appointment Booking
 
 #### Step 3: Copy and Paste the Provided Code
 
-1.  **Delete Existing Code:** In the Apps Script editor, delete any existing code in the `Code.gs` file.
-2.  **Paste the New Code:** Copy the entire script provided (or generated previously) and paste it into your empty `Code.gs` file in the Apps Script editor.
+1.  **Delete Existing Code:** In the Apps Script editor, delete any existing code.
+2.  **Paste the New Code:** Copy all the files and paste it into your Apps Script editor.
 3.  **Save the Project:** Click the `Save project` icon (floppy disk) in the toolbar. You can name your project (e.g., "Dental Appointment Script").
 
 ---
