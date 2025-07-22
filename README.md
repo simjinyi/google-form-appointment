@@ -73,15 +73,10 @@ The script is designed to be highly configurable through a central `CONFIG` JSON
 
 The script relies on specific sheet names within your linked Google Spreadsheet.
 
-1.  **Rename "Form Responses 1" to "Appointment":**
-    - Go back to your Google Sheet.
-    - At the bottom, you'll see a sheet tab usually named "Form Responses 1".
-    - Right-click on this tab and select `Rename`.
-    - Change the name to `Appointment` (case-sensitive, must match `CONFIG.SHEET_NAMES.APPOINTMENTS`).
-2.  **Create the "Availability" Sheet:**
+1.  **Create the "Availability" Sheet:**
     - Click the `+` icon (Add Sheet) at the bottom of your Google Sheet to create a new sheet.
     - Rename this new sheet to `Availability` (case-sensitive, must match `CONFIG.SHEET_NAMES.AVAILABILITY`).
-3.  **Populate "Availability" Sheet:**
+2.  **Populate "Availability" Sheet:**
     - In the `Availability` sheet, enter your available time slots starting from cell `A1`.
     - **Cell A1 should be the header:** You can leave it as "Available Time Slot" or any other descriptive header. The script expects the actual time slots to start from `A2` downwards.
     - **Format for Time Slots:** Enter each time slot on a new row in Column A. The script expects a format like `YYYY-MM-DD HH:MM AM/PM` (e.g., `2025-07-25 09:00 AM - 10:00 AM`). Ensure your dates are in the future for them to be considered valid.
